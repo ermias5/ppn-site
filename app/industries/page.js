@@ -1,8 +1,10 @@
+"use client"
+
 import Banner from "@/components/Banner";
 import { CallToAction1 } from "@/components/CallToAction";
 import Testimonials1 from "@/components/Testimonials";
 import PlaxLayout from "@/layouts/PlaxLayout";
-import Link from "next/link";
+import Link from "next/link"; 
 import TriFold from "@/components/TriFold";
 import Brands from "@/components/Brands";
 import Quote2 from "@/components/Quote";
