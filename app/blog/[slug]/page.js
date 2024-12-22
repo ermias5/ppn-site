@@ -11,7 +11,7 @@ const uri = process.env.MONGODB_URI;
 const dbName = process.env.MONGODB_DB_NAME;
 const collectionName = process.env.MONGODB_BLOG;
 
-export default async function BlogPost({ params }) {
+ async function BlogPost({ params }) {
   const { slug } = params;
   const post = await getPostBySlug(slug);
 
@@ -130,3 +130,6 @@ async function getPostBySlug(slug) {
 
   return post;
 }
+
+
+export default BlogPost

@@ -1,3 +1,5 @@
+"use client";
+
 import Banner from "@/components/Banner";
 import { CallToAction1 } from "@/components/CallToAction";
 import Testimonials1 from "@/components/Testimonials";
@@ -195,7 +197,10 @@ const page = () => {
             </div>
             <div className="row">
               <div className="col-xl-4 mil-mb-30">
-                <Link href="/about" className="mil-icon-box mil-center mil-hover">
+                <Link
+                  href="/about"
+                  className="mil-icon-box mil-center mil-hover"
+                >
                   <img
                     src="img/home-3/icons/3.svg"
                     alt="icon"
@@ -214,7 +219,10 @@ const page = () => {
                 </Link>
               </div>
               <div className="col-xl-4 mil-mb-30">
-                <Link href="/career" className="mil-icon-box mil-center mil-hover">
+                <Link
+                  href="/career"
+                  className="mil-icon-box mil-center mil-hover"
+                >
                   <img
                     src="img/home-3/icons/4.svg"
                     alt="icon"
@@ -233,7 +241,10 @@ const page = () => {
                 </Link>
               </div>
               <div className="col-xl-4 mil-mb-30">
-                <Link href="/pricing" className="mil-icon-box mil-center mil-hover">
+                <Link
+                  href="/pricing"
+                  className="mil-icon-box mil-center mil-hover"
+                >
                   <img
                     src="img/home-3/icons/5.svg"
                     alt="icon"
